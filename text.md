@@ -61,3 +61,12 @@ We, Manaslu International Services aim to be a preferred manpower consultant acr
 
 
 
+
+
+************ Section to create ***************
+home-section
+about-us-section
+services-section
+mission-vision-section
+recruitment-process-section
+contact-us-section
