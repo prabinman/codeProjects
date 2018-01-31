@@ -24,7 +24,8 @@ body {
     min-height: 700px;
 }
 #home-section .home-inner{
-    padding-top: 150px; 
+    padding-top: 150px;
+    color: yellowgreen; 
 }
 #home-section .home-inner .first-letter{
     font-size: 200%;
@@ -56,5 +57,10 @@ body {
     border-radius: 5px;
     font-size: 30px; }
   
+#main-footer .footer-text {
+    color:lightblue;
+    font-size: 120%;
+    font-family: Cambria;
+}
 
 
