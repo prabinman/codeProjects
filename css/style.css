@@ -1,6 +1,7 @@
 body {
     background: #333;
     color: #fff;
+    margin: 10px 10px;
 }
 
 .navbar {
@@ -28,7 +29,7 @@ body {
     padding-top: 150px;
     color: teal;
 }
-.each-word {
+#home-section .home-inner .each-word {
     display: inline-block;
     overflow: hidden;
     white-space: nowrap;
@@ -71,12 +72,21 @@ body {
     padding: 4px;
     border-radius: 5px;
     font-size: 30px;
+    overflow-wrap: break-word;
 }
 
+#main-footer {
+    clear: both;
+}
 #main-footer .footer-text {
     color: lightblue;
     font-size: 120%;
     font-family: Cambria;
+}
+
+.map-section1 {
+    border: none;
+    clear: both;
 }
 
 #circle {
