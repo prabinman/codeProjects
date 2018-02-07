@@ -161,21 +161,22 @@ body {
     width: 60px;
     height: 60px;
     position: relative;
+    text-align: center;
     background: rgb(26, 148, 10);
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
 }
-/* 
+
 #circle:before {
     content: "";
-    top: 5px;
+    top: 30px;
 }
 
 #circle:after {
     content: "";
-    top: 5px;
-} */
+    top: 30px;
+}
 
 .process-heading {
     background-position-x: center;
