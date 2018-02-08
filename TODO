@@ -1,0 +1,28 @@
+
+Todo:
+  ☐ Change Mission and Vision section.
+   Make full image background and divide div into 2 parts and 
+   include Mission points in bullets using font-awesome icons.
+   Similarly for Vision portion also.   
+
+  ☐ Polish Recruitment section.
+   Change font color to make it visible. Also make process steps 
+   to align in single row as well as responsive.
+   
+  ☐ Include customers logos in the slider.
+   Add customers logos in the logos slider.
+   
+  ☐ Edit bottom footer section to align social media icons.
+   Align the social media icons to be displayed inside the bottom
+   footer div.
+
+  ☐ Change top welocme section.
+   Display the motto only and add a read-more button which on 
+   clicking will open a modal which will display the full welcome
+   message.
+
+  ☐ Change About section.
+   Make full image background and include points in bullets 
+   using font-awesome icons.
+  
+  ☐ Change text color to make it more pleasant and distinctly noticable.

@@ -1,6 +1,6 @@
 body {
     background: #333;
-    color: #fff;
+    color: white;
     margin: 10px 10px;
 }
 
@@ -127,8 +127,7 @@ body {
 }
 #about-us-section .fa,
 #mission-vision-section .fa {
-    color: #ffffff;
-    background: #333333;
+    color: blue;
     padding: 4px;
     border-radius: 5px;
     font-size: 30px;
@@ -143,14 +142,29 @@ body {
     opacity: 0.4;
 }
 
-#recruitment-process-section .fa {
+#mission-vision {
+    background: url("../images/mission-vision.jpg") no-repeat;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: scroll;
+    z-index: -1;
+    opacity: 0.7;
+}
+
+.process-title {
+    color: darkgreen;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+/* #recruitment-process-section .fa {
     color: #008ed6;
     background: #fff;
     padding: 4px;
     border-radius: 5px;
     font-size: 30px;
     overflow-wrap: break-word;
-}
+} */
 
 #main-footer {
     clear: both;
@@ -160,9 +174,15 @@ body {
     font-size: 120%;
     font-family: Cambria;
 }
+#bottom-footer {
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .map-section1 {
-    border: none;
+    border: 1px solid grey;
     clear: both;
 }
 
@@ -246,7 +266,7 @@ body {
     background-color: initial;
 } */
 
-@media(max-width: 600px) {
+@media(max-width: 576px) {
     body {
         width: 100%;
           }
