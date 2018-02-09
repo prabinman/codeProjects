@@ -66,7 +66,7 @@
                         <!-- <div class="p-4 align-self-start">
                                 <!-- <li class="fa fa-check"></li> -->
                         <!-- </div> -->
-                        <div class="p-4 align-self-start">
+                        <!-- <div class="p-4 align-self-start">
                             <h2 class="display-4 text-center">Welcome Message</h2>
                             <p>
                                 Manaslu International Services is one of the renowned foreign employment recruitment company of Nepal. Manaslu International
@@ -75,15 +75,40 @@
                                 of Nepal for foreign employment. Manaslu International Services believe on honest, hard-working,
                                 experienced workforce. We have gained trust and goodwill from our valued clients. Manaslu
                                 International Services provides the perfect blend of quality human resource and client satisfaction.
-                            </p>
-                        </div>
-                        <button class="btn btn-primary" data-toggle="modal" data-target="#welcomeModal">Read More</button>
+                            </p> -->
                     </div>
+                    <div class="container">
+                        <button id="modalBtn" class="btn btn-primary" data-model="welcomeModal">Read More</button>
+                    </div>
+                    <!-- Welcome Modal -->
+                    <div id="welcomeModal" class="modal">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <span class="closeBtn">&times;</span>
+                                <h2>Welcome Message</h2>
+                            </div>
+                            <div class="modal-body">
+                                <p>Manaslu International Services is one of the renowned foreign employment recruitment company
+                                    of Nepal. Manaslu International Services is registered under the Ministry of Labour,
+                                    Government of Nepal. It supplies human resources to different countries of the world
+                                    that are legally permitted by the Government of Nepal for foreign employment. Manaslu
+                                    International Services believe on honest, hard-working, experienced workforce. We have
+                                    gained trust and goodwill from our valued clients. Manaslu International Services provides
+                                    the perfect blend of quality human resource and client satisfaction.</p>
+
+                            </div>
+                            <!-- <div class="modal-footer">
+                                    <h3>Modal Footer</h3>
+                                </div> -->
+                        </div>
+                    </div>
+                    <!--welcome modal -->
                 </div>
             </div>
         </div>
+        </div>
     </header>
-    
+
     <!-- ABOUT US SECTION -->
     <section id="about-us" class="bg-light text-muted py-5 overflow-hidden">
         <div class="container">
@@ -112,6 +137,38 @@
                         </p>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <button id="modalBtn" class="btn btn-success" data-model=chairmanModal "">Message from Chairman</button>
+                </div>
+                <!-- Message From Chairman Modal -->
+                <div id="chairmanModal" class="modal">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="closeBtn">&times;</span>
+                            <h2>Message From Chairman</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>“Manaslu International Service”- (MIS) is one of preeminent exporter and manpower consultants
+                                based in Nepal. We are a government approved Manpower Agency License No. 151/056/057, established
+                                in 1999. Since our establishment we have become a successful and leading overseas workforce
+                                developer in the country. It is globally accepted that Nepalese workforce are some of most
+                                hospitable, technical and intellectual ones. The entire human resource world is keeping interest
+                                over their hard working and adaptive strengths. And our role begins when it comes to outsource
+                                them. As per demand we do recruit people, train them, build-up skills and deploy them to
+                                right place thereby result most efficient outcomes. Whether our applicants are experienced
+                                foreign workers or first time candidate, we ensure their availability on most competitive
+                                pay scales. We hereby propose to provide every aspect of manpower need in most efficient
+                                and responsible manner. Finally, I believe that this profile would ascertain better understanding
+                                about our organization, working strategies and strengths. It is my humble declaration that
+                                our commitments remain undeterred as we grow up and expand in the days to come. “Quality
+                                and timely service is our efficiency”
+                                <br> Bal Krishna Shrestha
+                                <br> Chairman, CEO
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!--chairman modal -->
             </div>
         </div>
     </section>
@@ -188,7 +245,7 @@
                                 <i class="fa fa-hand-o-right"></i>
                             </div>
                             <div class="p-4 align-self-end">
-                                To seek an ethical business relationship with our Employer and Jobseeker providing them an extreme professional satisfaction. 
+                                To seek an ethical business relationship with our Employer and Jobseeker providing them an extreme professional satisfaction.
                             </div>
                         </div>
                     </div>
@@ -313,8 +370,8 @@
         <!-- <div class="col-md-6">
             <div class="row">
                 <button class="btn btn-primary" data-toggle="modal" data-target="#contactModal">Contact Us</button>
-            </div>
-        </div> -->
+            </div> -->
+        <!-- </div> -->
         <div class="col-md-6">
             <div class="row">
                 <div class="py-4 fa-icons">
@@ -328,7 +385,7 @@
     </div>
 
     <!-- CONTACT MODAL -->
-    <div class="modal fade text-dark overflow-hidden" id="contactModal">
+    <div class="modal text-dark overflow-hidden" id="contactModal">
         <div class="modal-dialog">
             <div class="modal-header">
                 <h5 class="modal-title">Contact Us</h5>
@@ -358,7 +415,7 @@
         </div>
     </div>
 
-    <script>
+    <!-- <script>
         window.onload = function () {
             var elements = document.getElementsByClassName("each-word")
             for (var i = 0; i < elements.length; i++) {
@@ -366,7 +423,7 @@
                     "<span class='first-letter'>$1</span>$2")
             }
         }
-    </script>
+    </script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -375,6 +432,7 @@
     <script src="js/carousel.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="js/modal.js"></script>
 </body>
 
 </html>

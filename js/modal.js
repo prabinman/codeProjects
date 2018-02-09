@@ -28,7 +28,20 @@ function closeModal() {
 
 // Function to close modal if outside click
 function outsideClick(e) {
-    if(e.target == modal) {
+    if (e.target == modal) {
         modal.style.display = 'none';
     }
 }
+
+// var btn = document.getElementsByClassName("modal");
+// // console.log(btn);
+
+// function newFunction() {
+//     for (var i = 0; i < btn.length; i++) {
+//         var thisBtn = btn[i];
+//         thisBtn.addEventListener("click", function () {
+//             var modal = document.getElementById(this.dataset.modal);
+//             modal.style.display = "block";
+//         }, false);
+//     }
+// }
