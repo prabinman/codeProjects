@@ -54,7 +54,7 @@
                     <div class="row">
                         <div class="col-lg-8 d-none d-lg-block">
                             <h1 class="display-4">
-                                <span class="each-word">
+                                <span class="text-primary">
                                     Local
                                     <strong> Skill</strong>. Global
                                     <strong>Exposure</strong>.
@@ -70,34 +70,39 @@
 
                     </div>
                     <div class="container">
-                        <button id="modalBtn" class="btn btn-primary pull-bottom" data-model="welcomeModal">Read More</button>
+                        <button type="button" class="btn btn-info pull-bottom" data-toggle="modal" data-target="#welcomeModal">Read More</button>
                     </div>
                     <!-- Welcome Modal -->
-                    <div id="welcomeModal" class="modal fade">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <span class="closeBtn">&times;</span>
-                                <h2 class="h1 text-center">Welcome Message</h2>
+                    <div id="welcomeModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">
+                                        &times;</span></button>
+                                    <!-- <h2 class="h1 text-center">Welcome Message</h2> -->
+                                </div>
+                                <div class="modal-body">
+                                    <div class="row">
+                                        <p>Manaslu International Services is one of the renowned foreign employment recruitment
+                                            company of Nepal. Manaslu International Services is registered under the Ministry
+                                            of Labour, Government of Nepal. It supplies human resources to different countries
+                                            of the world that are legally permitted by the Government of Nepal for foreign
+                                            employment. Manaslu International Services believe on honest, hard-working, experienced
+                                            workforce. We have gained trust and goodwill from our valued clients. Manaslu
+                                            International Services provides the perfect blend of quality human resource and
+                                            client satisfaction.</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                                <p>Manaslu International Services is one of the renowned foreign employment recruitment company
-                                    of Nepal. Manaslu International Services is registered under the Ministry of Labour,
-                                    Government of Nepal. It supplies human resources to different countries of the world
-                                    that are legally permitted by the Government of Nepal for foreign employment. Manaslu
-                                    International Services believe on honest, hard-working, experienced workforce. We have
-                                    gained trust and goodwill from our valued clients. Manaslu International Services provides
-                                    the perfect blend of quality human resource and client satisfaction.</p>
-
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                             </div>
-                            <!-- <div class="modal-footer">
-                                    <h3>Modal Footer</h3>
-                                </div> -->
                         </div>
                     </div>
                     <!--welcome modal -->
                 </div>
             </div>
-        </div>
         </div>
     </header>
 
@@ -130,33 +135,38 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <button id="modalBtn" class="btn btn-success" data-model=chairmanModal "">Message from Chairman</button>
+                    <button type="button" class="btn btn-info" data-toggle="modal" data-target="#chairmanModal">Message from Chairman</button>
                 </div>
                 <!-- Message From Chairman Modal -->
-                <div id="chairmanModal" class="modal">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <span class="closeBtn">&times;</span>
-                            <h2 class="h1 text-center" Message From Chairman</h2>
-                        </div>
-                        <div class="modal-body">
-                            <p>“Manaslu International Service”- (MIS) is one of preeminent exporter and manpower consultants
-                                based in Nepal. We are a government approved Manpower Agency License No. 151/056/057, established
-                                in 1999. Since our establishment we have become a successful and leading overseas workforce
-                                developer in the country. It is globally accepted that Nepalese workforce are some of most
-                                hospitable, technical and intellectual ones. The entire human resource world is keeping interest
-                                over their hard working and adaptive strengths. And our role begins when it comes to outsource
-                                them. As per demand we do recruit people, train them, build-up skills and deploy them to
-                                right place thereby result most efficient outcomes. Whether our applicants are experienced
-                                foreign workers or first time candidate, we ensure their availability on most competitive
-                                pay scales. We hereby propose to provide every aspect of manpower need in most efficient
-                                and responsible manner. Finally, I believe that this profile would ascertain better understanding
-                                about our organization, working strategies and strengths. It is my humble declaration that
-                                our commitments remain undeterred as we grow up and expand in the days to come. “Quality
-                                and timely service is our efficiency”
-                                <br> Bal Krishna Shrestha
-                                <br> Chairman, CEO
-                            </p>
+                <div id="chairmanModal" class="modal fade" role="dialog">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="text-primary">Message From Chairman</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <p>“Manaslu International Service”- (MIS) is one of preeminent exporter and manpower consultants
+                                        based in Nepal. We are a government approved Manpower Agency License No. 151/056/057,
+                                        established in 1999. Since our establishment we have become a successful and leading
+                                        overseas workforce developer in the country. It is globally accepted that Nepalese
+                                        workforce are some of most hospitable, technical and intellectual ones. The entire
+                                        human resource world is keeping interest over their hard working and adaptive strengths.
+                                        And our role begins when it comes to outsource them. As per demand we do recruit
+                                        people, train them, build-up skills and deploy them to right place thereby result
+                                        most efficient outcomes. Whether our applicants are experienced foreign workers or
+                                        first time candidate, we ensure their availability on most competitive pay scales.
+                                        We hereby propose to provide every aspect of manpower need in most efficient and
+                                        responsible manner. Finally, I believe that this profile would ascertain better understanding
+                                        about our organization, working strategies and strengths. It is my humble declaration
+                                        that our commitments remain undeterred as we grow up and expand in the days to come.
+                                        “Quality and timely service is our efficiency”
+                                        <br> Bal Krishna Shrestha
+                                        <br> Chairman, CEO
+                                    </p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -200,7 +210,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="p-4 align-self-start">
-                        <h3 class="process-title text">
+                        <h3 class="process-title text-primary">
                             Mission</h3>
                         <div class="d-flex flex-row">
                             <div class="p-4 align-self-start">
@@ -223,7 +233,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="p-4 align-self-start">
-                        <h3 class="process-title text"> Vision</h3>
+                        <h3 class="process-title text-primary"> Vision</h3>
                         <div class="d-flex flex-row">
                             <div class="p-4 align-self-start">
                                 <i class="fa fa-hand-o-right"></i>
@@ -250,7 +260,7 @@
     <section id="recruitment-process" class="py-5 overflow-hidden">
         <div class="container">
             <div class="process-title">
-                <h1 class="text-center">Recruitment Process</h1>
+                <h1 class="text-primary text-center">Recruitment Process</h1>
             </div>
             <div class="row">
                 <p>"The recruitment process of MIS is some of most competitive and innovative. Once there is staffing demand
@@ -277,12 +287,12 @@
     <section id="slider" class="bg-light text-muted py-5 overflow-hidden">
         <div class="container">
             <div class="row">
-                <h1>Our Business Partners:</h1>
+                <h1 class="h1"> Our Business Associates</h1>
             </div>
             <section class="customer-logos slider">
-               <h1></h1>
+                <h1></h1>
                 <div class="slide">
-                <img src="images/dunkindonuts.png" alt="DunkinDonuts">
+                    <img src="images/dunkindonuts.png" alt="DunkinDonuts">
                 </div>
                 <div class="slide">
                     <img src="images/PappaRoti.jpg" alt="PappaRoti">
@@ -291,22 +301,22 @@
                     <img src="images/othaim.png" alt="Othaim">
                 </div>
                 <div class="slide">
-                    <img src="" alt="">
+                    <img src="images/MAB.png" alt="MAB">
                 </div>
                 <div class="slide">
-                    <img src="" alt="">
+                    <img src="images/sisco.png" alt="SISCO">
                 </div>
                 <div class="slide">
-                    <img src="" alt="">
+                    <img src="images/subway.png" alt="SubWay">
                 </div>
                 <div class="slide">
-                    <img src="" alt="">
+                    <img src="images/srGroup.png" alt="SRGroup">
                 </div>
                 <div class="slide">
-                    <img src="" alt="">
+                    <img src="images/airKings.png" alt="AirKings">
                 </div>
                 <div class="slide">
-                    <img src="" alt="">
+                    <img src="images/javatimes.jpg" alt="JavaTimes">
                 </div>
                 <div class="slide">
                     <img src="" alt="">
@@ -317,12 +327,12 @@
     </section>
 
     <!-- MAIN FOOTER -->
-    <footer id="main-footer" class="bg-dark overflow-hidden">
+    <footer id="main-footer" class="overflow-hidden">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-6">
                     <div class="col text-center">
-                        <div class="py-4 text-left">
+                        <div class="text-left">
                             <h1 class="h3">
                                 <u>Contact Info</u>:</h1>
                             <i class="fa fa-map-marker"></i> : Dhumbarahi Height-04, Kathmandu
@@ -345,7 +355,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="row">
-                        <div class="py-4 text-right">
+                        <div class="text-right">
                             <h1 class="h3">
                                 <u> Contact Location</u>:</h1>
                             <div class="map-section1">

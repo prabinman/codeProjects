@@ -1,6 +1,5 @@
 body {
     background: #333;
-    color: white;
     margin: 10px 10px;
 }
 
@@ -29,7 +28,6 @@ body {
 
 #home-section .home-inner {
     padding-top: 150px;
-    color: teal;
 }
 
 .button {
@@ -72,7 +70,7 @@ body {
 }
 
 .modal-header{
-    background: lightskyblue;
+    background: palegoldenrod;
     padding: 15px;
     color: #fff;
 }
@@ -199,10 +197,9 @@ body {
 }
 #about-us-section .fa,
 #mission-vision-section .fa {
-    color: blue;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+    padding: 2px 4px;
 }
 
 #recruitment-process {
@@ -216,6 +213,7 @@ body {
 
 #recruitment-process h1, p {
     background: rgba(0, 0, 0, 0.75);
+    color: white;
     padding: 4px 8px;
 }
 
@@ -234,39 +232,61 @@ body {
     opacity: 0.7;
 }
 
-#mission-vision .text {
-    background: rgba(0, 0, 0, 0.75);
+#mission-vision .text, .fa {
+    background: rgba(255, 255, 255, 0.8);
+    color: black;
     padding: 4px 8px;
 }
 
+#slider .h1{
+    color: slateblue;
+    text-indent: 30%;
+    text-decoration: none;
+}
+
+#slider .slide {
+    width: 80px;
+    height: 80px;
+    justify-content: space-between;
+}
+
 .process-title {
-    color: darkgreen;
+
     text-align: center;
     text-transform: uppercase;
-    text-decoration-line: underline;
 }
-/* #recruitment-process-section .fa {
-    color: #008ed6;
-    background: #fff;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px;
-    overflow-wrap: break-word;
-} */
 
 #main-footer {
     clear: both;
+    background-color: thistle;
 }
+
 #main-footer .footer-text {
-    color: lightblue;
+    /* color: white; */
     font-size: 120%;
-    font-family: Cambria;
+    font-family: Muli;
 }
+
+/* #footer .fa {
+    /* background: rgba(255, 255, 255, 0.7); */
+    /* color: white; */
+    /* padding: 2px 8px; */
+/* }  */
+
 #bottom-footer .col-md-12 {
     height: 35px;
     top: 5px;
     display: flex;
     justify-content: center;
+}
+
+/* #bottom-footer .fa {
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+} */
+
+#bottom-footer .fa:hover {
+    color: lightskyblue;
 }
 
 .map-section1 {
@@ -277,6 +297,7 @@ body {
 .progressbar {
     counter-reset: step;
 }
+
 .progressbar li {
     list-style-type: none;
     float: left;
@@ -286,53 +307,61 @@ body {
     position: relative;
     text-align: center;
 }
+
 .progressbar li:before {
     content: counter(step);
     counter-increment: step;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    border: 2px solid red;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border: 2px solid #ddd;
     display: block;
     text-align: center;
     margin: 0 auto 10px auto;
     border-radius: 50%;
-    background-color: #fdfdfd;
+    background-color: #ddd;
 }
+
 .progressbar li:after {
     content: '';
     position: absolute;
     width: 100%;
     height: 1px;
-    background-color: red;
-    top: 25px;
+    background-color: #ddd;
+    top: 30px;
     left: -50%;
     z-index: -1;
 }
+
 .progressbar li:first-child():after {
     content: none;
 }
+
 .progressbar li.active {
     color: red;
 }
+
 .progressbar li.active:before {
     border-color: red;
 }
+
 .progressbar li.active + li::after {
     background-color: red;
 }
+
 .progressbar li:nth-child(-n+6) {
     color: red;
 }
 
+.progressbar li:nth-child(-n+6).active:before {
+    border-color: red;
+}
 
-/* .process-heading {
-    background-position-x: center;
-    background-size: initial;
-    background-attachment: initial;
-    background-clip: initial;
-    background-color: initial;
-} */
+.progressbar li:nth-child(-n+6)::after {
+    background-color: red;
+    
+}
+
 
 @media(max-width: 576px) {
     body {
