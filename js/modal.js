@@ -1,37 +1,37 @@
 // // Get modal element
-// var modal = document.getElementById('welcomeModal');
+var modal = document.getElementById('chairmanModal');
 
 // // Get open modal button
-// var modalBtn = document.getElementById('modalBtn');
+var modalBtn = document.getElementById('modalBtn');
 
 // // Get close button
-// var closeBtn = document.getElementsByClassName('closeBtn')[0];
+var closeBtn = document.getElementsByClassName('closeBtn')[0];
 
 // // Listen for open click
-// modalBtn.addEventListener('click', openModal);
+modalBtn.addEventListener('click', openModal);
 
 // // Listen for close click
-// closeBtn.addEventListener('click', closeModal);
+closeBtn.addEventListener('click', closeModal);
 
 // // Listen for outside click
-// window.addEventListener('click', outsideClick);
+window.addEventListener('click', outsideClick);
 
 // // Function to open modal
-// function openModal() {
-//     modal.style.display = 'block';
-// }
+function openModal() {
+    modal.style.display = 'block';
+}
 
 // // Function to close modal
-// function closeModal() {
-//     modal.style.display = 'none';
-// }
+function closeModal() {
+    modal.style.display = 'none';
+}
 
 // // Function to close modal if outside click
-// function outsideClick(e) {
-//     if (e.target == modal) {
-//         modal.style.display = 'none';
-//     }
-// }
+function outsideClick(e) {
+    if (e.target == modal) {
+        modal.style.display = 'none';
+    }
+}
 
 // var btn = document.getElementsByClassName("modal");
 // // console.log(btn);
